@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Journeys Your Way</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <!--This is header section-->
+  <header class="bg-white shadow-md fixed top-0 right-0 left-0 z-50">
+    <nav class="m-w[1440px] container mx-auto px-4 py-4 flex items-center ">
+      <div class="flex items-center pt-0">
+        <img src="images/logo1.png" alt="logo" class=" size-16 rounded-full inline-block">
+      </div>
+      <ul class="flex-1 text-center">
+        <li class="list-none inline-block px-5">
+          <a href="#Home" class="no-underline px-2 font-semibold text-sky-400 text-2xl">Home</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="#About" class="no-underline px-2 font-semibold  text-sky-400 text-2xl">About</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="#Destination" class="no-underline px-2 font-semibold  text-sky-400 text-2xl">Destination</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="#Tour" class="no-underline px-2 font-semibold  text-sky-400 text-2xl">Tour</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="#Blog" class="no-underline px-2 font-semibold  text-sky-400 text-2xl">Blog</a>
+        </li>
+      </ul>
+      <div>
+        <button class="  px-4 py-2 text-sky-500 cursor-pointer hidden sm:inline-flex">Sign In</button>
+        <button
+          class="bg-sky-500 hover:bg-sky-400 text-white px-4 py-2 rounded-3xl cursor-pointer transition duration-300">Sign
+          Up</button>
+      </div>
+
+  </header>
+  <!--This is hero section-->
+  <section class="max-w-[1140px] container mx-auto px-4 py-28 flex flex-col md:flex-row items-center gap-12 p-0" id="Home">
+    <div class="md:w-1/2 mb-8 md:mb-0 space-y-8">
+      <h1 class="lg:text-6xl md:text-5xl text-4xl font-bold leading-tight">Get started your exciting <span
+          class="text-sky-400">journey</span> with us.
+      </h1>
+      <p class="text-lg leading-relaxed  max-w-xl">A Team of experienced tourism professionals will provide you with the
+        best advice and tips for your desire place. </p>
+      <button
+        class="bg-sky-500 text-white px-12 py-4 hover:bg-sky-400 hover:text-white shadow-lg hover:shadow-lg transition duration-300 text-lg font-medium cursor-pointer">Discover
+        Now</button>
+    </div>
+    <div class="md:w-1/2">
+      <img src="images/hero.png" alt="Hero" class="size-full ">
+    </div>
+  </section>
+  <!--This is location section-->
+  <section class="max-w-[1140px] container mx-auto px-4 py-28 ">
+    <div class="bg-white rounded-xl shadow-lg p-8">
+      <div class="flex flex-col md:flex-row justify-around items-center ">
+        <div class="justify-center gap-6 px-0 py-0 md:py-0">
+          <div class="text-2xl font-bold">Location</div>
+          <h3 class="font-semibold text-gray-500">Where are you going</h3>
+        </div>
+
+        <div class="justify-center gap-6 px-0 py-0 md:py-0">
+          <div class="text-2xl font-bold">Date</div>
+          <h3 class="font-semibold text-gray-500">When you will go</h3>
+        </div>
+
+        <div class="justify-center gap-6 px-0 py-0 md:py-0">
+          <div class="text-2xl font-bold">Guest</div>
+          <h3 class="font-semibold text-gray-500">Number of guest</h3>
+        </div>
+        <button
+          class="bg-sky-500 text-white px-12 py-4 hover:bg-sky-400 hover:text-white shadow-lg hover:shadow-lg transition duration-300 text-lg font-medium cursor-pointer rounded-xl">Explore
+          Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- Features section -->
+  <!-- section header -->
+  <section class=" bg-gray-50 " id="About">
+    <div class="max-w-[1140px] container mx-auto px-4 py-28">
+      <div class="text-center mb-16">
+        <h1 class="text-3xl font-bold mb-4 ">Things you need <span class="text-sky-500">to do</span> </h1>
+        <p class="text-gray-500">We ensure that you'll embark on a perfectly planned, safe vacation at a price you can
+          afford. </p>
+      </div>
+      <!-- Card container -->
+      <div class=" grid md:grid-cols-3 grid-cols-1 max-w-6xl mx-auto gap-8 justify-evenly">
+        <div
+          class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-start hover:border-sky-400 transition duration-300 hover:scale-110">
+          <img src="images/Card1.png" alt="Card image " class="w-30 mb-8 ">
+          <h1 class="font-bold text-2xl mb-6 ">Sign up</h1>
+          <p class="font-semibold text-gray-500 text-left">Completes all the work associated with planning and
+            processing</p>
+        </div>
+
+        <div
+          class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-start hover:border-sky-400 transition duration-300 hover:scale-110">
+          <img src="images/Card2.png" alt="Card image " class="w-43 mb-8 ">
+          <h1 class="font-bold text-2xl mb-6 ">Worth of Money</h1>
+          <p class="font-semibold text-gray-500 text-left">After successful access then book from exclusive deals &
+            pricing</p>
+        </div>
+
+        <div
+          class="bg-white p-8 rounded-2xl border-2 border-gray-200 flex flex-col items-start hover:border-sky-400 transition duration-300 hover:scale-110">
+          <img src="images/Card3.png" alt="Card image " class="w-28 mb-8 ">
+          <h1 class="font-bold text-2xl mb-6 ">Exciting Travel</h1>
+          <p class="font-semibold text-gray-500 text-left">Start and explore a wide range of exciting travel experience.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- Deals section -->
+  <section class="max-w-[1140px]  mx-auto px-4 " id="Destination">
+    <!-- section header -->
+    <div class=" mx-auto px-4 py-28">
+      <div class="text-center mb-36">
+        <h1 class="text-3xl font-bold mb-4 ">Exclusive <span class="text-sky-500">deals & discounts </span> </h1>
+        <p class="text-gray-400">We ensure that you'll embark on a perfectly planned, safe vacation at a price you can
+          afford. </p>
+      </div>
+      <!-- Card1 -->
+      <div class="grid md:grid-cols-4 grid-cols-1 max-w-6xl mx-auto gap-8 justify-evenly">
+         <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/Liguria, Italy..jpg" alt="Card image " class="h-60 object-cover ml-6 rounded-xl">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr-14 ">Liguria</h2>
+
+             <span class="text-gray-400"><img src="images/star.png" alt="rating" class="h-8 inline-block ml-0 mr-1 ">4.8</span>
+
+          </div>
+                
+                <div class="text-gray-400  ">
+                  <img class="h-8 inline-block  " src="images/logation.png" alt="logation">Italy
+                </div>
+                <div class="text-sky-400 inline-block "><strike class="text-gray-400 mr-6">$950</strike>$850</div>
+          </div>
+      <!-- Card1 -->
+          
+        </div>
+        <!-- Card2 -->
+        <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/Peru.png" alt="Card image " class="h-60 object-cover ml-6 rounded-xl w-45">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr-14 ">Machu </h2>
+
+             <span class="text-gray-400"><img src="images/star.png" alt="rating" class="h-6 w inline-block ml-0 mr-1 ">4.5</span>
+
+          </div>
+                
+                <div class="text-gray-400 mr-8">
+                  <img class="h-8 inline-block " src="images/logation.png" alt="logation">Peru
+                </div>
+                <div class="text-sky-400"><strike class="text-gray-400 mr-6">$950</strike>$850</div>
+          </div>
+      </div>
+      <!-- Card2 -->
+       <!--Card3 -->
+      <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/Paris, France..jpg" alt="Card image " class="h-60 object-cover ml-6 rounded-xl w-45">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr-14 ">Paris</h2>
+
+             <span class="text-gray-400"><img src="images/star.png" alt="rating" class="h-8 inline-block ml-0 mr-1 ">4.4</span>
+
+          </div>
+                
+                <div class="text-gray-400 mr-8">
+                  <img class="h-8 inline-block " src="images/logation.png" alt="logation">France
+                </div>
+                <div class="text-sky-400"><strike class="text-gray-400 mr-6">$950</strike>$850</div>
+          </div>
+
+          
+    </div>
+    <!--Card3  -->
+    <!-- Card4 -->
+    <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/Maldives or French Polynesia.jfif" alt="Card image " class="h-60 object-cover ml-6 rounded-xl w-4/5">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr-14 ">Polynesia</h2>
+
+             <span class="text-gray-400"><img src="images/star.png" alt="rating" class="h-8 inline-block ml-0 mr-1 ">4.9</span>
+
+          </div>
+                
+                <div class="text-gray-400 mr-8">
+                  <img class="h-8 inline-block " src="images/logation.png" alt="logation">Maldives
+                </div>
+                <div class="text-sky-400"><strike class="text-gray-400 mr-6 inline-block">$950</strike>$850</div>
+          </div>
+          <!-- Card4 -->
+  </section>
+  <!-- Vaction plan -->
+
+   <section class="max-w-[1140px]  mx-auto px-4 " id="Tour">
+
+     <!-- section header -->
+    <div class=" mx-auto px-4 py-28">
+      <div class="text-center mb-36">
+        <h1 class="text-3xl font-bold mb-4 ">Best <span class="text-sky-500"> vacation plan</span> </h1>
+        <p class="text-gray-400">Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!  </p>
+      </div>
+      <!-- Card1 -->
+      <div class="grid md:grid-cols-3 grid-cols-1 max-w-6xl mx-auto gap-8 justify-evenly">
+         <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/victoria-falls-zambia.webp" alt="Card image " class="h-60 object-cover ml-3 w-50 rounded-xl">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr-1 ">Victoria, Zambia </h2>
+
+             <span class="text-sky-400">$5.42k</span>
+
+          </div>
+                
+                <div class="text-gray-400  ">
+                  <img class="h-16 inline-block p-0" src="images/aero.png" alt="aero">10 Days Trip
+                </div>
+          </div>
+      <!-- Card1 -->
+          
+        </div>
+        <!-- Card2 -->
+        <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/bagan-myanmar.webp" alt="Card image " class="h-60 object-cover ml-6 rounded-xl w-45">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block  ">Bagan,myanmar</h2>
+            <p class="text-sky-400 inline-block ">$2.42k</p>
+          </div>
+                <div class="text-gray-400 mr-8">
+                  <img class="h-16 inline-block " src="images/aero.png" alt="aero">07 Days Trip
+                </div>
+          </div>
+      </div>
+      <!-- Card2 -->
+       <!--Card3 -->
+      <div
+          class="w-60  p-2 bg-white rounded-xl transform transition-all hover:translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 mb-4 lg:mt-0">
+          <img src="images/ha-long-bay-vietnam.webp" alt="Card image " class="h-60 object-cover ml-6 rounded-xl w-45">
+          <div class="p-2">
+          <div>
+            <h2 class="font-bold text-lg mb-2 inline-block mr ">Ha-long,Vietnam</h2>
+            <p class="text-sky-400 inline-block ">$5.43k</p>
+          </div>
+                
+              </div>
+                <div class="text-gray-400 mr-8">
+                  <img class="h-16 inline-block " src="images/aero.png" alt="aero">10 Days Trip
+                </div>
+          </div>  
+    </div>
+    <!--Card3  -->
+  
+   </section>
+<!-- Testimonials section -->
+   <section class="max-w-[1140px]  mx-auto px-4  bg-gray-50" id="Blog"> 
+<!-- Section header -->
+
+     <div class="max-w-[1140px] container mx-auto px-4 py-6">
+        <div class="text-center mb-16">
+          <h1 class="text-3xl font-bold mb-4 ">What people say <span class="text-sky-500">about Us.</span></h1>
+          <p class="text-gray-500">Our Clients send us bunch of smilies with our services and we love them. </p>
+        </div>
+    <div class="h-screen flex justify-center items-center p-10 ">
+        <!-- testimunials container -->
+     <div class="w-3/4 shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300 hover:scale-110 ">
+       <div>
+          <img src="images/testimunials.png" alt="testimunials img" class="rounded-full size-16 object-cover mb-6">
+            <div>
+              <div class="text-sky-300">“On the Windows talking painted pasture yet its express parties use. Sure last    upon he same as knew next. Of believed or diverted no.”
+              <div>
+                <div class="font-bold text-sky-600">John D</div>
+                  <div class="font-semibold text-sky-600">CEO of Red Button</div>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+    </div>
+   </section>
+   <!-- Subscribe section -->
+    <section class="max-w-[1140px]  mx-auto px-4 py-28">
+
+      <div class="bg-white rounded-xl shadow-lg  lg:p-16 md:p-12 p-8 hover:shadow-2xl transition-all duration-500">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+          <div>
+            <!-- left contant-->
+             <div>
+              <h2 class="lg:text-4xl md:text-3xl text-2xl font-bold mb-5">Subscribe and get exclusive<br> deals & offer</h2>
+              <p class="text-gray-400 mb-5">Let's subscribe with us and find the fun</p>
+             </div>
+             <!-- right content -->
+              <div class="">
+                <button class="bg-sky-400 text-white hover:bg-sky-300 lg:px-16 md:px-12 md:py-3 lg:py-4 px-8 rounded-xl hover:opacity-90 transition-all duration-300 ">Subscribe</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- footer section -->
+     <footer class="bg-[#F8F8F8]">
+      <div class="p-10 bg-sky-100 text-black">
+        <div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+            <div class="mb-5 flex flex-wrap justify-evenly items-start">
+                  <h4 class="text-xl font-bold text-sky-900 mr-16 ml-10">Journeys Your Way</h4>
+                  <img src="images/facebook.png" alt="" class="h-10 ">
+                  <img src="images/instagram.png" alt="" class="h-12">
+                  <img src="images/twitter.png" alt="" class="h-10 pt-1">
+            </div>
+            <div class="mb-5">
+            
+            </div>
+
+            <div class="mb-5">
+              <h4 class="font-bold text-sky-950 mb-5">Company</h4>
+              <ul class="font-semibold text-sky-800">
+                <li>About</li>
+                <li>Careers</li>
+                <li>Logistic</li>
+                <li>Privacy policy</li>
+              </ul>
+            </div>
+            <div class="mb-5">
+              <h4 class="font-bold text-sky-950 mb-5"> Contact</h4>
+              <ul class="font-semibold text-sky-800">
+                <li>Help/FAQ</li>
+                <li>Press</li>
+                <li>Affilates</li>
+                <li>Our Blog</li>
+                <li>Low fare tips</li>
+              </ul>
+            </div>
+      
+          </div>
+        </div>
+
+      </div>
+
+     </footer>
+</body>
+
+</html>
